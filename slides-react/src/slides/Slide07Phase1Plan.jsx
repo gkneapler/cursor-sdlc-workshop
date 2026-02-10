@@ -49,7 +49,7 @@ const Slide07Phase1Plan = () => (
                 <br />
                 in teams/team_[X]/members/[your-name].md.
                 <br />
-                My role is [AE/FE/ADM] and a fun fact is [...]"
+                My role is [AE/FE/ADM] and my GitHub username is [username]"
               </code>
             </div>
           </div>

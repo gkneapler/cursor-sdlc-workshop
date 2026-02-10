@@ -39,24 +39,46 @@ const Slide09Phase3Develop = () => (
 {/* IN CURSOR */}
           <div className="check-group work section1">
             <div className="check-group-label">In Cursor</div>
+          <div className="check-item has-code">
+            <div className="check-header">
+              <div className="check-box"></div>
+              <div>
+                <strong>Find your issue</strong> — grab the task assigned to you
+              </div>
+            </div>
+            <div className="code-block">
+              <code>
+                <span className="comment">Ask Cursor:</span>
+                <br />
+                "Find my GitHub issue assigned to me and
+                <br />
+                read the prd.md to understand what I need to build."
+              </code>
+            </div>
+          </div>
           <div className="check-item">
             <div className="check-box"></div>
             <div>
               <strong>Run the project</strong> — make sure the base MVP works
-              first
+              before you start
             </div>
           </div>
           <div className="check-item">
             <div className="check-box"></div>
             <div>
-              <strong>Use Plan Mode</strong> to design YOUR section from the PRD
+              <strong>Use Plan Mode</strong> to design your feature before writing code
             </div>
           </div>
           <div className="check-item">
             <div className="check-box"></div>
             <div>
-              <strong>Implement your feature</strong> using Tab completion +
-              Cmd+K
+              <strong>Implement your feature</strong> — tell Cursor what to build using Agent mode
+            </div>
+          </div>
+          <div className="check-item">
+            <div className="check-box"></div>
+            <div>
+              <strong>Test it</strong> — run the app and verify your feature works
             </div>
           </div>
         </div>

@@ -41,11 +41,24 @@ const Slide08Phase2Design = () => (
 {/* IN CURSOR */}
           <div className="check-group work section1">
             <div className="check-group-label">In Cursor</div>
-          <div className="check-item">
-            <div className="check-box"></div>
-            <div>
-              <strong>ONE PERSON:</strong> Create the base MVP application from{' '}
-              <span className="highlight">prd.md</span> using Cursor
+          <div className="check-item has-code">
+            <div className="check-header">
+              <div className="check-box"></div>
+              <div>
+                <strong>ONE PERSON:</strong> Create the base MVP application from{' '}
+                <span className="highlight">prd.md</span> using Cursor
+              </div>
+            </div>
+            <div className="code-block">
+              <code>
+                <span className="comment">Ask Cursor:</span>
+                <br />
+                "Read the prd.md in our team folder and build the
+                <br />
+                base MVP. Keep it minimal — leave features for
+                <br />
+                teammates to add. Put the code in base_mvp/."
+              </code>
             </div>
           </div>
           <div className="check-item">
@@ -58,8 +71,27 @@ const Slide08Phase2Design = () => (
           <div className="check-item">
             <div className="check-box"></div>
             <div>
-              <strong>Verify it works</strong> — e.g., if Chrome extension, see
-              it in Chrome
+              <strong>Verify it works</strong> — make sure the base MVP runs before moving on
+            </div>
+          </div>
+          <div className="check-item has-code">
+            <div className="check-header">
+              <div className="check-box"></div>
+              <div>
+                <strong>Create GitHub issues</strong> — one issue per team member,{' '}
+                assigned by <span className="highlight">GitHub username</span>
+              </div>
+            </div>
+            <div className="code-block">
+              <code>
+                <span className="comment">Ask Cursor:</span>
+                <br />
+                "Read our prd.md and create a GitHub issue for
+                <br />
+                each feature task. Assign each issue to the
+                <br />
+                team member's GitHub username from the PRD."
+              </code>
             </div>
           </div>
         </div>

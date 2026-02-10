@@ -11,36 +11,36 @@ const Slide11Section2Intro = () => (
         you didn't write. This is <strong>90% of what engineers do</strong> day-to-day.
       </p>
       <p>
-        If you haven't already, try to find ways to use Cursor's features available in
-        the harness as you work through this section.
+        You'll follow the same SDLC process as Section 1 — but this time
+        with someone else's codebase.
       </p>
     </div>
     <div className="tiles">
       <div className="tile orange">
         <div className="tile-number">01</div>
         <div className="tile-title">
-          Get <span className="highlight-orange">another team's project</span>
+          <span className="highlight-orange">Understand</span> the project
         </div>
         <div className="tile-desc">
-          Figure it out without asking them
+          Use Ask Mode to explore unfamiliar code
         </div>
       </div>
       <div className="tile orange">
         <div className="tile-number">02</div>
         <div className="tile-title">
-          Enable <span className="highlight-orange">Cursor's power features</span>
+          <span className="highlight-orange">Plan</span> your improvements
         </div>
         <div className="tile-desc">
-          BugBot, Hooks, Skills, and Agents
+          Create a planning doc with 5 features, one per person
         </div>
       </div>
       <div className="tile orange">
         <div className="tile-number">03</div>
         <div className="tile-title">
-          Use <span className="highlight-orange">Ask Mode</span>
+          <span className="highlight-orange">Build</span> &amp; ship
         </div>
         <div className="tile-desc">
-          Ask Cursor questions about the code without editing it
+          Each person implements their feature and opens a PR
         </div>
       </div>
     </div>
